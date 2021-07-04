@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #0075eb;
+    color: #fff;
+    height: 70px;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    display: flex;
+    padding: 0 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+ul {
+    display: flex;
+    color: #fff;
+}
+
+ul>li {
+    font-size: 20px;
+    padding: 0 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+ul>li:hover {
+    color: #000;
+    font-weight: 500;
+    border-bottom: 2px #fff solid;
+}
+
+.navbar-Loruki {
+    font-size: 30px;
+    font-style: bold;
+    font-weight:700;
+    color: pink;
+}
