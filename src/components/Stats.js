@@ -69,19 +69,33 @@ function Stats() {
 
     <div className = "card-container card">
         <h1>Nodejs</h1>
-        <img src="/server.png" alt="nwnmw"/>
+        <img src="/logos/node.png" alt="nwnmw"/>
     </div>
     <div className = "card-container card">
-    <img src="/" alt="nwnmw"/>
+        <h1>Python</h1>
+    <img src="/logos/python.png" alt="nwnmw"/>
     </div>
     <div className = "card-container card">
-    <img src="/" alt="nwnmw"/>
+        <h1>C#</h1>
+    <img src="/logos/csharp.png" alt="nwnmw"/>
     </div>
     <div className = "card-container card">
-    <img src="/" alt="nwnmw"/>
+    <h1>Ruby</h1>
+    <img src="/logos/ruby.png" alt="nwnmw"/>
+    </div>
+
+    <div className = "card-container card">
+    <h1>PHP</h1>
+    <img src="/logos/php.png" alt="nwnmw"/>
+    </div>
+
+    <div className = "card-container card">
+    <h1>Scala</h1>
+    <img src="/logos/scala.png" alt="nwnmw"/>
     </div>
     <div className = "card-container card">
-    <img src="/" alt="nwnmw"/>
+    <h1>Clojure</h1>
+    <img src="/logos/clojure.png" alt="nwnmw"/>
     </div>
 </div>
 
