@@ -9,7 +9,6 @@ function Navbar() {
                 <div className="navbar-container flex">
                     <h1 className="navbar-Loruki">Loruki</h1>
                     <nav>
-
                         <ul>
                             <li>Home</li>
                             <li>News</li>

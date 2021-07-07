@@ -22,7 +22,10 @@
 }
 
 .heading{
+    display:inline-block;
     text-align: center;
+    margin-top:30px;
+  
 }
 
 .clicontainer{
@@ -129,7 +132,10 @@ img{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     text-align: center;
-    height: 400px;
+  
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 .bg-dark,
@@ -145,7 +151,33 @@ img{
 }
 
 
+
   .links{
     text-decoration: none;
     color:#fff;
   }
+
+  .ullinks{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  /*Tablets and under*/
+
+  @media (max-width:768px){
+    .grid-container, 
+    .advertgridSection,
+    .clicontainer{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+  }
+
+
+  /**/
+  @media (max-width:500px){
+      
+}

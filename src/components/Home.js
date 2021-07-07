@@ -61,10 +61,6 @@ function Home() {
 
                 </div>
             </section>
-
-            {/**Stats section */}
-            <h1>Hello</h1>
-
             <Stats />
         </>
 

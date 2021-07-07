@@ -118,3 +118,32 @@ form{
     -ms-transform: skewY(-3deg);
 }
 
+  /*Tablets and under*/
+
+  @media (max-width:768px){
+
+    .container-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .showcase-form {
+        justify-self: center;
+        width:500px;
+    }
+
+    .showcase{
+        height:auto;
+    }
+
+    .showCaseText{
+        text-align: center;
+        margin-top:10px;
+    }
+}
+
+
+/**/
+@media (max-width:500px){
+    
+}
+

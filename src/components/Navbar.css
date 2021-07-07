@@ -49,3 +49,28 @@ ul>li:hover {
     font-weight:700;
     color: pink;
 }
+
+  /*Tablets and under*/
+  @media (max-width:768px){
+
+}
+
+
+/**/
+@media (max-width:500px){
+    .navbar{
+        height:110px;
+    }
+
+    .navbar-container {
+        display:flex;
+        flex-direction:column;
+    }
+
+    .navbar-container ul{
+        padding:10px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius:5px;
+        margin-bottom:5px;
+    }
+}

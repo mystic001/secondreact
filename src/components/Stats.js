@@ -115,16 +115,21 @@ function Stats() {
                     <div className = "footer-grid">
                         <div className = "firstNAme">
                             <h1>Loruki</h1>
-                            <p>Copyright &copy;</p>
+                            <p>Copyright &copy; 2020</p>
                         </div>
                         <div className = "SecondName">
                             <h1>Contact us</h1>
-                            <ul>
+                            <nav>
+                            <ul className = "ullinks">
                                 <li><Link className="links" to="/home"><p>Home</p></Link></li>
                                 <li><Link className="links" to="/home"><p>Contact</p></Link></li>
                                 <li><Link className="links" to="/home"><p>About Us</p></Link></li>
                             </ul>
+                            </nav>
+                           
                         </div>
+                        <nav>
+
                         <div className = "thirdName">
                             <h1>Socials</h1>
                             <Link className = "socials" to="/"><i className="fab fa-github fa-2x"></i></Link>
@@ -132,6 +137,8 @@ function Stats() {
                             <Link className = "socials" to="/"><i className="fab fa-twitter fa-2x"></i></Link>
                             <Link className = "socials" to="/"><i className="fab fa-instagram fa-2x"></i></Link>
                         </div>
+                        </nav>
+    
                     </div>
 
                 </div>
